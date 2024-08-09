@@ -2,29 +2,32 @@
 @section('title', 'The Marriage Park - Coaching')
 @section('content')
 
-    <section class="relative bg-cover bg-fixed bg-center min-h-screen md:h-screen w-full"
+    <section class="bg-cover bg-fixed bg-center min-h-screen md:h-screen w-full"
         style="background-image: url('{{ asset('assets/img/bg-coaching.svg') }}');">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
-            <div class="bg-white rounded-lg shadow-lg p-8 mr-auto place-self-center lg:col-span-7">
+            <div class="bg-white rounded-lg shadow-lg p-6 mr-auto place-self-center md:ml-6 lg:col-span-7 lg:ml-12 max-w-xl">
+                <!-- Mengurangi padding dan lebar maksimum -->
                 <h1
-                    class="max-w-2xl mb-4 text-4xl font-playfair font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-                    Coaching For Couples</h1>
-                <p class="max-w-2xl mb-2 font-poppins font-semibold text-black lg:mb-4 md:text-lg lg:text-xl ">Sebenarnya,
-                    apa itu The Marriage Park ?</p>
-                <p class="max-w-2xl mb-4 font-base text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">The Marriage
+                    class="max-w-2xl mb-4 text-3xl font-playfair font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">
+                    Coaching For Couples</h1> <!-- Mengurangi ukuran font -->
+                <p class="max-w-2xl mb-2 font-poppins font-semibold text-black lg:mb-4 md:text-md lg:text-md">Sebenarnya,
+                    apa itu The Marriage Park?</p>
+                <p class="max-w-2xl mb-4 font-base text-black lg:mb-6 md:text-md lg:text-lg dark:text-gray-400">The Marriage
                     Park merupakan platform coaching pernikahan baik untuk mereka yang sudah menikah ataupun yang baru saja
                     merencanakannya. Di dalamnya, pasangan akan berbagi tentang tantangan dan impian mereka dalam
                     pernikahan. Mentor/Coach kemudian membantu dengan memberikan panduan dan solusi praktis, memastikan
                     kehidupan pernikahan terencana dengan baik dan sesuai harapan.</p>
-                <p class="max-w-2xl mb-4 font-base text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Coaching
+                <p class="max-w-2xl mb-4 font-base text-black lg:mb-6 md:text-md lg:text-lg dark:text-gray-400">Coaching
                     pernikahan sebenarnya lebih dari sekadar pertemuan biasa. Anda akan membangun hubungan baru dengan
                     seorang yang netral dan berpengalaman, yang akan memberikan Anda perspektif yang mungkin belum pernah
                     Anda miliki sebelumnya.</p>
-                <p class="max-w-2xl mb-4 font-bold italic text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">It’s a
+                <p class="max-w-2xl mb-4 font-bold italic text-black lg:mb-6 md:text-md lg:text-lg dark:text-gray-400">It’s a
                     place where you can be your true self, so you could have an insight on how to solve your problems.</p>
             </div>
         </div>
     </section>
+
+
 
     <section class="bg-white dark:bg-gray-900">
         <div class="grid max-w-screen-xl px-10 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-4">
@@ -87,13 +90,53 @@
         </div>
     </section>
 
+    <section class="flex items-center justify-center h-auto py-5">
+        <div class="w-full max-w-3xl mx-auto p-8 bg-white">
+            <form>
+                <div class="mb-8">
+                    <label for="fullname"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fullname</label>
+                    <input type="text" id="text"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-6 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Fullname" required />
+                </div>
+                <div class="mb-8">
+                    <label for="fullname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone Number</label>
+                    <input type="text" id="text"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-6 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Active Phone Number" required />
+                </div>
+                <div class="mb-8">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                        email</label>
+                    <input type="email" id="email"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-6 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="name@gmail.com" required />
+                </div>
+                <!-- Tanggal -->
+                <div class="mb-6">
+                    <label for="date" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select
+                        Date</label>
+                    <input type="date" id="date"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required />
+                </div>
 
-    <div class="top-0 left-0 w-screen h-30 flex items-center justify-center">
-        <a href="#"
-            class="inline-flex items-center justify-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl my-7 px-5 py-2 font-poppins font-semibold text-center text-gray-900 bg-greenButton rounded-lg hover:bg-green-300 focus:ring-4 focus:ring-gray-100 dark:text-white">
-            Appointment Now
-        </a>
-    </div>
+                <!-- Waktu -->
+                <div class="mb-6">
+                    <label for="time" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select
+                        Time</label>
+                    <input type="time" id="time"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        required />
+                </div>
+                <button type="submit"
+                    class="text-white bg-greenButton hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full px-8 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
 
     @push('after-styles')
     @endpush

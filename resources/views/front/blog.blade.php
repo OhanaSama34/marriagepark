@@ -2,16 +2,112 @@
 @section('title', 'The Marriage Park - MyBlog')
 @section('content')
 
-<section class="bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-sm text-center">
-            <h1 class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">404</h1>
-            <p class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">Something's missing.</p>
-            <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">Sorry, we can't find that page. You'll find lots to explore on the home page. </p>
-            <a href="#" class="inline-flex text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4">Back to Homepage</a>
-        </div>   
+<section class="bg-gray-100 dark:bg-gray-800 py-12">
+    <div class="max-w-screen-xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8 dark:text-white">Related Articles</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Article 1 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 1</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Article 2 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 2</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Article 3 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 3</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Article 4 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 4</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Article 4 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 4</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Article 4 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 4</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Article 4 -->
+            <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
+                <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 dark:text-white">Article Title 4</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A short description of the article goes here. It gives a brief overview of the content.</p>
+                    <a href="#" class="inline-flex items-center text-red-500 hover:underline dark:text-red-400">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
 
 @push('after-scripts')    
 @endpush
