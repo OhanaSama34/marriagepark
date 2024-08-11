@@ -15,14 +15,6 @@ class FrontController extends Controller
     {
         return view('front.profiles');
     }
-    public function coaching()
-    {
-        return view('front.coaching');
-    }
-    public function collab()
-    {
-        return view('front.collab');
-    }
     public function events()
     {
         return view('front.events');
@@ -30,6 +22,14 @@ class FrontController extends Controller
     public function blog()
     {
         return view('front.blog');
+    }
+    public function bookYourSession()
+    {
+        return view('front.booksession');
+    }
+    public function community()
+    {
+        return view('front.community');
     }
     
 }

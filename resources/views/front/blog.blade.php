@@ -20,7 +20,7 @@
                     </a>
                 </div>
             </div>
-            <!-- Article 2 -->
+            {{-- <!-- Article 2 -->
             <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
                 <img src="https://via.placeholder.com/300x200" alt="Article Image" class="w-full h-48 object-cover">
                 <div class="p-4">
@@ -103,7 +103,7 @@
                         </svg>
                     </a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

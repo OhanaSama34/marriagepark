@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [FrontController::class, 'index'])->name('front.index');
-Route::get('/profiles', [FrontController::class, 'profiles'])->name('front.profiles'); 
-Route::get('/coaching', [FrontController::class, 'coaching'])->name('front.coaching'); 
-Route::get('/collab', [FrontController::class, 'collab'])->name('front.collab'); 
-Route::get('/events', [FrontController::class, 'events'])->name('front.events'); 
-Route::get('/blog', [FrontController::class, 'blog'])->name('front.blog'); 
+Route::get('/Profiles', [FrontController::class, 'profiles'])->name('front.profiles'); 
+Route::get('/BookSession', [FrontController::class, 'bookYourSession'])->name('front.booksession'); 
+Route::get('/Community', [FrontController::class, 'community'])->name('front.community'); 
+Route::get('/Events', [FrontController::class, 'events'])->name('front.events'); 
+Route::get('/Blog', [FrontController::class, 'blog'])->name('front.blog'); 
 
 Route::get('/dashboard', function () {
     return view('dashboard');

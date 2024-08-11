@@ -20,23 +20,21 @@ export default {
             },
             
         },
+        //COLOR PALLET
         colors: {
             'white': '#ffffff',
-            'purple': '#3f3cbb',
-            'greenButton': '#CAF14C',
-            'customGreen': '#AED828',
-            'redButton': '#D73E4A',
-            'grey': '#DFDFDF',
-            'midnight': '#121063',
-            'metal': '#565584',
-            'tahiti': '#3ab7bf',
-            'silver': '#ecebff',
-            'bubble-gum': '#ff77e9',
-            'bermuda': '#78dcca',
+            'black': '#000000',
+            'wheat': '#FFF4E3',
+            'customYellow': '#DA983C',
+            'customGreen': '#8F9562',
+            'customDarkGreen': '#495235',
+            'hoverCustomYellow': '#EFAE53',
+            'hoverCustomGreen': '#A6AD76',
         },
+        //GOOGLE FONTS
         fontFamily: {
             "poppins": ['Poppins', 'sans-serif'], 
-            "playfair": ['Playfair Display', 'serif']// Tambahkan Google Font disini
+            "playfair": ['Playfair Display', 'serif']
           },
     },
 
