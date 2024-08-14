@@ -90,7 +90,7 @@
         </div>
     </section>
 
-    <section class="flex items-center justify-center h-auto py-5">
+    <section id="appointment" class="flex items-center justify-center h-auto py-5">
         <div class="w-full max-w-3xl mx-auto p-8 bg-white">
             <form>
                 <div class="mb-8">
