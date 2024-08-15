@@ -15,6 +15,15 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            animation: {
+                'infinite-scroll': 'infinite-scroll 25s linear infinite',
+            },
+            keyframes: {
+                'infinite-scroll': {
+                    from: { transform: 'translateX(0)' },
+                    to: { transform: 'translateX(-100%)' },
+                }
+            },
             screens: {
                 '3xl': '1600px',
             },
@@ -25,9 +34,10 @@ export default {
             'white': '#ffffff',
             'black': '#000000',
             'wheat': '#FFF4E3',
+            'sectionYellow': '#FFF4D4',
             'dangerColor' : '#ffc107',
             'customYellow': '#DA983C',
-            'customLightYellow': '#E0AB0B',
+            'customLightYellow': '#E4B62B',
             'customGreen': '#8F9562',
             'customLightGreen': '#8ea16a',
             'customDarkGreen': '#495235',

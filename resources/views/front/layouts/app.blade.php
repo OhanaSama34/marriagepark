@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('before-styles')
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap"
-        rel="stylesheet">
+    <style>
+        /* CSS kustom untuk smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     @stack('after-styles')
     <title>
         @yield('title')
@@ -76,12 +80,19 @@
     </nav>
 
     <div id="preloader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
-        <div class="animate-spin rounded-full h-32 w-32 border-t-4 border-customYellow"></div>
+        <div class="animate-spin rounded-full h-32 w-32 border-t-4 border-customLightYellow"></div>
     </div>
 
     @yield('content')
 
-    <footer class="bg-gray-600 dark:bg-gray-800">
+    <section class="fixed bottom-4 right-4">
+        <a href="https://wa.me/6281234567890" target="_blank" class="flex items-center px-4 py-2 bg-white border border-gray-300 rounded-full shadow-lg hover:bg-gray-100">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" class="w-6 h-6 mr-2">
+            <span class="font-semibold">Hubungi Admin</span>
+        </a>
+    </section>
+
+    <footer class="bg-gray-800 dark:bg-gray-800">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
             <span class="text-sm text-white sm:text-center dark:text-gray-400">Copyright©2024 <a
                     href="https://flowbite.com/" class="hover:underline">The Marriage Park</a>
