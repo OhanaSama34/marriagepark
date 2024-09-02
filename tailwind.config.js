@@ -32,23 +32,21 @@ export default {
         //COLOR PALLET
         colors: {
             'white': '#ffffff',
-            'black': '#000000',
-            'wheat': '#FFF4E3',
-            'sectionYellow': '#FFF4D4',
-            'dangerColor' : '#ffc107',
-            'customYellow': '#DA983C',
-            'customLightYellow': '#E4B62B',
-            'customGreen': '#8F9562',
-            'customLightGreen': '#8ea16a',
-            'customDarkGreen': '#495235',
-            'customDarkerGreen': '#222911',
-            'hoverCustomYellow': '#EFAE53',
-            'hoverCustomGreen': '#A6AD76',
+            'black': '#1D1D1D',
+            'oliveGreen': '#5D693D',
+            'lightOliveGreen': '#859756',
+            'customOrange': '#B06730',
+            'lightOrange': '#E49051',
+            'lightBeige': '#EBE1BD',
+            'whiteLightBeige': '#FBF4D9',
+            'wheat': '#FFF6E7',
         },
         //GOOGLE FONTS
         fontFamily: {
             "poppins": ['Poppins', 'sans-serif'], 
-            "playfair": ['Playfair Display', 'serif']
+            
+            "zain": ['Zain', 'sans-serif'],
+            
           },
     },
 

@@ -20,12 +20,11 @@
     <section class="bg-white dark:bg-gray-900 mb-7 mt-8 lg:mt-16 lg:mb-14">
         <div class="flex flex-col items-center justify-center text-center">
             <h1
-                class="mb-2 text-2xl text-customDarkGreen font-playfair font-bold tracking-tight leading-none md:mb-4 md:text-4xl lg:mb-5 xl:text-4xl dark:text-white">
+                class="mb-2 text-4xl text-black font-zain font-bold tracking-tight leading-none md:mb-4 md:text-4xl lg:mb-5 xl:text-4xl dark:text-white">
                 See Our Upcoming Events
             </h1>
-
             <p
-                class="font-poppins text-sm font-normal tracking-tight leading-none md:mb-4 md:text-lg lg:mb-5 xl:text-xl dark:text-white">
+                class="font-poppins text-sm font-normal text-gray-500 tracking-tight leading-none md:mb-4 md:text-lg lg:mb-5 xl:text-xl dark:text-white">
                 Nantikan selalu event-event kami
             </p>
         </div>
@@ -90,17 +89,17 @@
         </div>
     </section>
 
-    <section class="bg-wheat dark:bg-gray-900 mb- flex items-center justify-center ">
+    <section class="bg-lightOrange dark:bg-gray-900 mb- flex items-center justify-center ">
         <div class="text-center max-w-screen-xl px-4 py-6">
             <h1
-                class="mb-4 text-4xl font-playfair font-bold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                class="mb-4 text-4xl font-zain font-bold text-white tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
                 Are you ready for married life?
             </h1>
-            <p class="mb-6 font-poppins font-base text-black md:text-lg lg:text-xl dark:text-black">
+            <p class="mb-6 font-poppins font-base text-white md:text-lg lg:text-xl dark:text-black">
                 A tightly curated online journey to a better self and a better married life
             </p>
             <a href="#"
-                class="inline-flex bg-customGreen items-center justify-center px-5 py-2 font-poppins font-semibold text-center text-white rounded-lg hover:bg-hoverCustomGreen hover:text-black focus:ring-4 focus:ring-gray-100 dark:text-white">
+                class="inline-flex bg-lightOliveGreen items-center justify-center px-5 py-2 font-poppins font-semibold text-center text-white rounded-lg hover:bg-oliveGreen hover:text-white focus:ring-4 focus:ring-gray-100 dark:text-white">
                 Start Here
             </a>
         </div>

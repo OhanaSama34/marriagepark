@@ -8,7 +8,7 @@
             <div class="bg-white rounded-lg shadow-lg p-6 mr-auto place-self-center md:ml-6 lg:col-span-7 lg:ml-12 max-w-xl">
                 <!-- Mengurangi padding dan lebar maksimum -->
                 <h1
-                    class="max-w-2xl mb-4 text-3xl text-hoverCustomYellow font-playfair font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">
+                    class="max-w-2xl text-6xl text-lightOrange font-zain font-extrabold tracking-wide leading-none md:text-4xl xl:text-5xl dark:text-white">
                     Coaching For Couples</h1> <!-- Mengurangi ukuran font -->
                 <p class="max-w-2xl mb-2 font-poppins font-semibold text-black lg:mb-4 md:text-md lg:text-md">Sebenarnya,
                     apa itu The Marriage Park?</p>
@@ -33,7 +33,7 @@
         <div class="grid max-w-screen-xl px-10 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-4">
             <div class="mr-auto place-self-center lg:col-span-4">
                 <h1
-                    class="max-w-2xl mb-4 text-customDarkGreen text-2xl font-playfair font-bold tracking-tight leading-none md:text-2xl xl:text-4xl dark:text-white">
+                    class="max-w-2xl text-black text-2xl font-zain font-extrabold tracking-tight leading-none md:text-2xl xl:text-4xl dark:text-white">
                     Syarat dan Ketentuan Sesi Coaching</h1>
                 <h1
                     class="max-w-2xl mb-4 text-lg font-poppins font-bold tracking-tight leading-none md:text-lg xl:text-lg dark:text-white">
@@ -65,7 +65,7 @@
         <div class="grid max-w-screen-xl px-10 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-4">
             <div class="mr-auto place-self-center lg:col-span-4">
                 <h1
-                    class="max-w-2xl mb-4 text-customDarkGreen text-2xl font-playfair font-bold tracking-tight leading-none md:text-2xl xl:text-4xl dark:text-white">
+                    class="max-w-2xl text-black text-2xl font-zain font-extrabold tracking-tight leading-none md:text-2xl xl:text-4xl dark:text-white">
                     Tema Coaching</h1>
 
                 <ol class="ps-5 mt-2 space-y-1 list-decimal list-inside">

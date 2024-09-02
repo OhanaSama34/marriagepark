@@ -12,20 +12,21 @@
             scroll-behavior: smooth;
         }
     </style>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Zain:wght@200;300;400;700;800&display=swap" rel="stylesheet">
     @stack('after-styles')
     <title>
         @yield('title')
     </title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/logo/the_marriage.png') }}">
 </head>
 
 <body>
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav class="bg-white font-zain border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-centers space-x-3 rtl:space-x-reverse">
-                <img style="height: 40px" src="{{ asset('assets/logo/themarriagepark.png') }}" class="h-8"
+                <img style="height: 52px" src="{{ asset('assets/logo/the_marriage.png') }}" class="h-8"
                     alt="Flowbite Logo" />
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
@@ -43,51 +44,47 @@
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
                         <a href="/"
-                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('/')? 'text-dangerColor md:text-dangerColor' : 'md:bg-transparent md:text-gray-500' }}"
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('/') ? 'text-lightOrange md:text-lightOrange md:text-xl md:font-bold' : 'md:bg-transparent md:text-gray-500  md:text-xl md:font-bold' }}"
                             aria-current="page">Home</a>
                     </li>
                     <li>
                         <a href="/Profiles"
-                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Profiles')? 'text-dangerColor md:text-dangerColor' : 'md:bg-transparent md:text-gray-500' }}"
-                            >Profile</a>      
-                       
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Profiles') ? 'text-lightOrange md:text-lightOrange md:text-xl md:font-bold' : 'md:bg-transparent md:text-gray-500  md:text-xl md:font-bold' }}">Profile</a>
+
                     </li>
                     <li>
                         <a href="/Events"
-                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Events')? 'text-dangerColor md:text-dangerColor' : 'md:bg-transparent md:text-gray-500' }}"
-                            >Event</a>   
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Events') ? 'text-lightOrange md:text-lightOrange md:text-xl md:font-bold' : 'md:bg-transparent md:text-gray-500  md:text-xl md:font-bold' }}">Event</a>
                     </li>
                     <li>
                         <a href="/Blog"
-                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Blog')? 'text-dangerColor md:text-dangerColor' : 'md:bg-transparent md:text-gray-500' }}"
-                            >Blog</a>   
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Blog') ? 'text-lightOrange md:text-lightOrange md:text-xl md:font-bold' : 'md:bg-transparent md:text-gray-500  md:text-xl md:font-bold' }}">Blog</a>
                     </li>
                     <li>
                         <a href="/BookSession"
-                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('BookSession')? 'text-dangerColor md:text-dangerColor' : 'md:bg-transparent md:text-gray-500' }}"
-                            >Book Your Session</a>   
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('BookSession') ? 'text-lightOrange md:text-lightOrange md:text-xl md:font-bold' : 'md:bg-transparent md:text-gray-500  md:text-xl md:font-bold' }}">Book
+                            Your Session</a>
                     </li>
                     <li>
                         <a href="/Community"
-                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Community')? 'text-dangerColor md:text-dangerColor' : 'md:bg-transparent md:text-gray-500' }}"
-                            >Community</a> 
+                            class="block py-2 px-3 text-gray-900 rounded md:p-0 {{ Request::is('Community') ? 'text-lightOrange md:text-lightOrange md:text-xl md:font-bold' : 'md:bg-transparent md:text-gray-500  md:text-xl md:font-bold' }}">Community</a>
                     </li>
-
-
                 </ul>
             </div>
         </div>
     </nav>
 
     <div id="preloader" class="fixed inset-0 flex items-center justify-center bg-white z-50">
-        <div class="animate-spin rounded-full h-32 w-32 border-t-4 border-customLightYellow"></div>
+        <div class="animate-spin rounded-full h-32 w-32 border-t-4 border-lightOrange"></div>
     </div>
 
     @yield('content')
 
     <section class="fixed bottom-4 right-4">
-        <a href="https://wa.me/6281234567890" target="_blank" class="flex items-center px-4 py-2 bg-white border border-gray-300 rounded-full shadow-lg hover:bg-gray-100">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" class="w-6 h-6 mr-2">
+        <a href="https://wa.me/6281234567890" target="_blank"
+            class="flex items-center px-4 py-2 bg-white border border-gray-300 rounded-full shadow-lg hover:bg-gray-100">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp"
+                class="w-6 h-6 mr-2">
             <span class="font-semibold">Hubungi Admin</span>
         </a>
     </section>
@@ -112,7 +109,6 @@
     </footer>
 
     @stack('before-scripts')
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
     <script>
         window.addEventListener('load', function() {
             document.getElementById('preloader').style.display = 'none';

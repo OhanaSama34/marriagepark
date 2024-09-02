@@ -4,7 +4,7 @@
 
 <section class="bg-gray-100 dark:bg-gray-800 py-12">
     <div class="max-w-screen-xl mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-8 dark:text-white">Related Articles</h2>
+        <h2 class="text-3xl font-bold font-poppins text-center mb-8 dark:text-white">Related Articles</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <!-- Article 1 -->
             <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-md">
